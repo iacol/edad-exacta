@@ -13,11 +13,9 @@ export function Footer() {
           </div>
           
           <div>
-            <h3 className="font-bold text-lg mb-3">Enlaces</h3>
+            <h3 className="font-bold text-lg mb-3">Contacto</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="text-blue-600 hover:underline">Política de privacidad</a></li>
-              <li><a href="#" className="text-blue-600 hover:underline">Términos de uso</a></li>
-              <li><a href="#" className="text-blue-600 hover:underline">Contacto</a></li>
+              <li><a className="text-muted-foreground no-underline">iacolombiabeta@gmail.com</a></li>
             </ul>
           </div>
           

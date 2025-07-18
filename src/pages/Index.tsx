@@ -4,7 +4,7 @@ import { DateInputForm } from "@/components/DateInputForm";
 import { ResultCard } from "@/components/ResultCard";
 import { AdBanner } from "@/components/AdBanner";
 import { Footer } from "@/components/Footer";
-import { FAQ } from "@/components/FAQ";
+
 
 export default function Index() {
   const [birthDate, setBirthDate] = useState<Date | null>(null);
@@ -105,8 +105,6 @@ export default function Index() {
               </div>
             </div>
 
-            {/* FAQ Section */}
-            <FAQ />
 
             {/* Bottom Ad Banner */}
             <div className="flex justify-center mt-12">
